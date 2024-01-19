@@ -28,6 +28,7 @@ def signup(request):
         'form':form,
     })
 
+# User LogOut Method 
 def user_logout (request):
     logout(request)
     return redirect('/')
